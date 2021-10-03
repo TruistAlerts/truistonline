@@ -1,0 +1,60 @@
+* {
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.captcha-wrapper {
+    color: #242424;
+    width: 360px;
+    margin: 50px auto 10px;
+}
+.captcha-wrapper .logo {
+    padding: 0 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.captcha-wrapper .form {
+    border-top: 1px dashed #bbb;
+    padding: 15px 20px 10px;
+    min-height: 300px;
+}
+.captcha-wrapper .form .image {
+    margin-bottom: 10px;
+    border: 2px solid #dfecff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.captcha-wrapper .form .input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    margin-bottom: 10px;
+    color: #414141;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+}
+.captcha-wrapper .form .button {
+    width: 100%;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background: #e11b32;
+    height: 40px;
+    padding: 5px 25px;
+    cursor: pointer;
+    color: #fff;
+}
+.captcha-wrapper .form .button:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}

